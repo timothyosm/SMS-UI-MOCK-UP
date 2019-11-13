@@ -1,0 +1,90 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>The HTML5 Herald</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+</head>
+
+<body>
+    <ion-app>
+        <ion-menu side="start" menu-id="first">
+            <ion-header>
+                <ion-toolbar color="primary">
+                    <ion-title>Home</ion-title>
+                </ion-toolbar>
+            </ion-header>
+            <ion-content>
+                <ion-list>
+                    <ion-title>Students</ion-title>
+                    <iom-item>Search</iom-item>
+                    <iom-item>Classes</iom-item>
+                    <iom-item>Subjects</iom-item>
+                    <iom-item>Photo Lists</iom-item>
+                    <iom-item>Activities</iom-item>
+                    <iom-item>Graphs</iom-item>
+                    <ion-title>Timetables</ion-title>
+                    <ion-title>Forms</ion-title>
+                    <ion-title>Staff</ion-title>
+                    <ion-title>Enrolments</ion-title>
+                    <ion-title>Messages</ion-title>
+                    <ion-title>Families</ion-title>
+                    <ion-title>Graphs</ion-title>
+                    <ion-title>Creditors</ion-title>
+                    <ion-title>Reports</ion-title>
+                    <ion-title>Groups</ion-title>
+                    <ion-title>Admin</ion-title>
+                </ion-list>
+            </ion-content>
+        </ion-menu>
+
+        <div class="ion-page" main>
+            <ion-header>
+                <ion-toolbar>
+                    <ion-toolbar>
+                        <ion-segment>
+                            <ion-segment-button onclick="openFirst()" value="Home" checked>
+                                Home
+                            </ion-segment-button>
+                            <ion-segment-button onclick="openFirst()" value="1">
+                                Calendar
+                            </ion-segment-button>
+                            <ion-segment-button onclick="openFirst()" value="2">
+                                Academic
+                            </ion-segment-button>
+                            <ion-segment-button onclick="openFirst()" value="3">
+                                Markbook
+                            </ion-segment-button>
+                            <ion-segment-button onclick="openFirst()" value="4">
+                                Pastoral
+                            </ion-segment-button>
+                            <ion-segment-button onclick="openFirst()" value="5">
+                                Financial
+                            </ion-segment-button>
+                            <ion-segment-button onclick="openFirst()" value="6">
+                                Report
+                            </ion-segment-button>
+                        </ion-segment>
+                    </ion-toolbar>
+
+
+            </ion-header>
+
+        </div>
+
+    </ion-app>
+    <ion-menu-controller></ion-menu-controller>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
