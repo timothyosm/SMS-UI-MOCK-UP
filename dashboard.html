@@ -1,161 +1,221 @@
-<!doctype html>
+<ion-grid>
+    <ion-row>
+        <ion-col>
 
-<html lang="en">
+            <ion-card>
+                <ion-card-header>
+                    <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+                    <ion-card-title>Card Title</ion-card-title>
+                </ion-card-header>
 
-<!-- <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+                <ion-card-content>
+                    Keep close to Nature's heart... and break clear away, once in awhile,
+                    and climb a mountain or spend a week in the woods. Wash your spirit clean.
+                </ion-card-content>
+            </ion-card>
 
-    <title>The HTML5 Herald</title>
-    <meta name="description" content="The HTML5 Herald">
-    <meta name="author" content="SitePoint">
+        </ion-col>
+        <ion-col>
 
-    <link rel="stylesheet" href="css/styles.css?v=1.0">
-    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
-    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-</head> -->
+            <ion-card>
+                <ion-item>
+                    <ion-icon name="pin" slot="start"></ion-icon>
+                    <ion-label>My Students</ion-label>
+                    <ion-button fill="outline" slot="end">View Student</ion-button>
+                </ion-item>
 
+                <ion-card-content>
+                    <ion-row>
+                        <ion-col>
+                            <ion-card-subtitle>Currently</ion-card-subtitle>
+                        </ion-col>
+                        <ion-col>
+                            Free
+                        </ion-col>
+                    </ion-row>
 
+                    <ion-row>
+                        <ion-col>
+                            <ion-card-subtitle>School Year</ion-card-subtitle>
+                        </ion-col>
+                        <ion-col>
+                            Y12
+                        </ion-col>
+                    </ion-row>
 
-<body>
-    <ion-content>
-        <ion-grid>
-            <ion-row>
-                <ion-col>
-                    <ion-card>
-                        <ion-card-header>
-                            <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
-                            <ion-card-title>Card Title</ion-card-title>
-                        </ion-card-header>
+                    <ion-row>
+                        <ion-col>
+                            <ion-card-subtitle>Pastoral Group</ion-card-subtitle>
+                        </ion-col>
+                        <ion-col>
+                            Nicol Davis
+                        </ion-col>
+                    </ion-row>
 
-                        <ion-card-content>
-                            Keep close to Nature's heart... and break clear away, once in awhile,
-                            and climb a mountain or spend a week in the woods. Wash your spirit clean.
-                        </ion-card-content>
-                    </ion-card>
-                </ion-col>
-                <ion-col>
-                    <ion-card>
-                        <ion-item>
-                            <ion-icon name="pin" slot="start"></ion-icon>
-                            <ion-label>My Students</ion-label>
-                            <ion-button fill="outline" slot="end">View Student</ion-button>
-                        </ion-item>
+                    <ion-row>
+                        <ion-col>
+                            <ion-card-subtitle>Absences</ion-card-subtitle>
+                        </ion-col>
+                        <ion-col>
+                            21 since 1st Jan
+                        </ion-col>
+                    </ion-row>
 
-                        <ion-card-content>
-                            <ion-row>
-                                <ion-col>
-                                    <ion-card-subtitle>Currently</ion-card-subtitle>
-                                </ion-col>
-                                <ion-col>
-                                    Free
-                                </ion-col>
-                            </ion-row>
-
-                            <ion-row>
-                                <ion-col>
-                                    <ion-card-subtitle>School Year</ion-card-subtitle>
-                                </ion-col>
-                                <ion-col>
-                                    Y12
-                                </ion-col>
-                            </ion-row>
-
-                            <ion-row>
-                                <ion-col>
-                                    <ion-card-subtitle>Pastoral Group</ion-card-subtitle>
-                                </ion-col>
-                                <ion-col>
-                                    Nicol Davis
-                                </ion-col>
-                            </ion-row>
-
-                            <ion-row>
-                                <ion-col>
-                                    <ion-card-subtitle>Absences</ion-card-subtitle>
-                                </ion-col>
-                                <ion-col>
-                                    21 since 1st Jan
-                                </ion-col>
-                            </ion-row>
-
-                            <ion-row>
-                                <ion-col>
-                                    <ion-card-subtitle>Lates</ion-card-subtitle>
-                                </ion-col>
-                                <ion-col>
-                                    18 since 1st Jan
-                                </ion-col>
-                            </ion-row>
+                    <ion-row>
+                        <ion-col>
+                            <ion-card-subtitle>Lates</ion-card-subtitle>
+                        </ion-col>
+                        <ion-col>
+                            18 since 1st Jan
+                        </ion-col>
+                    </ion-row>
 
 
 
-                            This is content, without any paragraph or header tags,
-                            within an ion-card-content element.
-                        </ion-card-content>
-                    </ion-card>
-                </ion-col>
-            </ion-row>
-        </ion-grid>
-        <ion-grid>
-            <ion-row>
-                <ion-col>
+                    This is content, without any paragraph or header tags,
+                    within an ion-card-content element.
+                </ion-card-content>
+            </ion-card>
 
-                    <ion-card>
-                        <ion-card-header>
-                            <ion-card-title>Daily Notices</ion-card-title>
-                        </ion-card-header>
-                        <ion-item href="#" class="activated">
-                            <ion-icon name="warning" slot="start"></ion-icon>
-                            <ion-label>ESS Payroll Sysem - CLOSED</ion-label>
-                        </ion-item>
+        </ion-col>
+        <ion-col>
 
-                        <ion-item href="#">
-                            <ion-icon name="warning" slot="start"></ion-icon>
-                            <ion-label>PLEASE NOTE: The ESS Payroll system is closed until the 15th of the month.
-                            </ion-label>
-                        </ion-item>
+            <ion-card>
+                <ion-card-header>
+                    <ion-card-title>Daily Notices</ion-card-title>
+                </ion-card-header>
+                <ion-item href="#" class="activated">
+                    <ion-icon name="warning" slot="start"></ion-icon>
+                    <ion-label>ESS Payroll Sysem - CLOSED</ion-label>
+                </ion-item>
 
-                        <ion-item>
-                            <ion-icon name="book" slot="start"></ion-icon>
-                            <ion-label>WACE Examinations (Written papers) - 8:00am</ion-label>
-                        </ion-item>
+                <ion-item href="#">
+                    <ion-icon name="warning" slot="start"></ion-icon>
+                    <ion-label>PLEASE NOTE: The ESS Payroll system is closed until the 15th of the month.
+                    </ion-label>
+                </ion-item>
 
-                        <ion-item>
-                            <ion-icon name="flag" slot="start"></ion-icon>
-                            <ion-label>PS Odd Socks Day - 8:10am</ion-label>
-                        </ion-item>
-                    </ion-card>
-                </ion-col>
-                <ion-col>
+                <ion-item>
+                    <ion-icon name="book" slot="start"></ion-icon>
+                    <ion-label>WACE Examinations (Written papers) - 8:00am</ion-label>
+                </ion-item>
 
-                </ion-col>
-            </ion-row>
-        </ion-grid>
-        <ion-grid>
-            <ion-row>
-                <ion-col>
+                <ion-item>
+                    <ion-icon name="flag" slot="start"></ion-icon>
+                    <ion-label>PS Odd Socks Day - 8:10am</ion-label>
+                </ion-item>
+            </ion-card>
+        </ion-col>
+    </ion-row>
+</ion-grid>
 
-                </ion-col>
-                <ion-col>
-
-                </ion-col>
-            </ion-row>
-        </ion-grid>
-        <ion-grid>
-            <ion-row>
-                <ion-col>
-
-                </ion-col>
-                <ion-col>
-
-                </ion-col>
-            </ion-row>
-        </ion-grid>
-    </ion-content>
-
-
-
-</body>
+<ion-grid>
+        <ion-row>
+            <ion-col>
+    
+                <ion-card>
+                    <ion-card-header>
+                        <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+                        <ion-card-title>Card Title</ion-card-title>
+                    </ion-card-header>
+    
+                    <ion-card-content>
+                        Keep close to Nature's heart... and break clear away, once in awhile,
+                        and climb a mountain or spend a week in the woods. Wash your spirit clean.
+                    </ion-card-content>
+                </ion-card>
+    
+            </ion-col>
+            <ion-col>
+    
+                <ion-card>
+                    <ion-item>
+                        <ion-icon name="pin" slot="start"></ion-icon>
+                        <ion-label>My Students</ion-label>
+                        <ion-button fill="outline" slot="end">View Student</ion-button>
+                    </ion-item>
+    
+                    <ion-card-content>
+                        <ion-row>
+                            <ion-col>
+                                <ion-card-subtitle>Currently</ion-card-subtitle>
+                            </ion-col>
+                            <ion-col>
+                                Free
+                            </ion-col>
+                        </ion-row>
+    
+                        <ion-row>
+                            <ion-col>
+                                <ion-card-subtitle>School Year</ion-card-subtitle>
+                            </ion-col>
+                            <ion-col>
+                                Y12
+                            </ion-col>
+                        </ion-row>
+    
+                        <ion-row>
+                            <ion-col>
+                                <ion-card-subtitle>Pastoral Group</ion-card-subtitle>
+                            </ion-col>
+                            <ion-col>
+                                Nicol Davis
+                            </ion-col>
+                        </ion-row>
+    
+                        <ion-row>
+                            <ion-col>
+                                <ion-card-subtitle>Absences</ion-card-subtitle>
+                            </ion-col>
+                            <ion-col>
+                                21 since 1st Jan
+                            </ion-col>
+                        </ion-row>
+    
+                        <ion-row>
+                            <ion-col>
+                                <ion-card-subtitle>Lates</ion-card-subtitle>
+                            </ion-col>
+                            <ion-col>
+                                18 since 1st Jan
+                            </ion-col>
+                        </ion-row>
+    
+    
+    
+                        This is content, without any paragraph or header tags,
+                        within an ion-card-content element.
+                    </ion-card-content>
+                </ion-card>
+    
+            </ion-col>
+            <ion-col>
+    
+                <ion-card>
+                    <ion-card-header>
+                        <ion-card-title>Daily Notices</ion-card-title>
+                    </ion-card-header>
+                    <ion-item href="#" class="activated">
+                        <ion-icon name="warning" slot="start"></ion-icon>
+                        <ion-label>ESS Payroll Sysem - CLOSED</ion-label>
+                    </ion-item>
+    
+                    <ion-item href="#">
+                        <ion-icon name="warning" slot="start"></ion-icon>
+                        <ion-label>PLEASE NOTE: The ESS Payroll system is closed until the 15th of the month.
+                        </ion-label>
+                    </ion-item>
+    
+                    <ion-item>
+                        <ion-icon name="book" slot="start"></ion-icon>
+                        <ion-label>WACE Examinations (Written papers) - 8:00am</ion-label>
+                    </ion-item>
+    
+                    <ion-item>
+                        <ion-icon name="flag" slot="start"></ion-icon>
+                        <ion-label>PS Odd Socks Day - 8:10am</ion-label>
+                    </ion-item>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
